@@ -29,7 +29,7 @@ client.user.setGame(`Linux ' `,"http://twitch.tv/S-F")
 });
 client.on("ready", () => {
     setInterval(function(){
-        client.guilds.get("505146524192210944").roles.find("name", "' Colors ,").edit({ //Ranibow Code 
+        client.guilds.get("535745599388254208").roles.find("name", "' Colors ,").edit({ //Ranibow Code 
             color : "RANDOM"
         });
     }, 1000)
