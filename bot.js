@@ -32,6 +32,6 @@ client.on("ready", () => {
         client.guilds.get("535745599388254208").roles.find("name", "' Colors ,").edit({ //Ranibow Code 
             color : "RANDOM"
         });
-    }, 10000)
+    }, 19999)
 });
 client.login(process.env.BOT_TOKEN);
