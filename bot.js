@@ -27,13 +27,6 @@ client.user.setGame(`Linux ' `,"http://twitch.tv/S-F")
   console.log('')
   console.log('')
 });
-client.on("ready", () => {
-    setInterval(function(){
-        client.guilds.get("535745599388254208").roles.find("name", "' Colors ,").edit({ //Ranibow Code 
-            color : "RANDOM"
-        });
-    }, 20000)
-});
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
